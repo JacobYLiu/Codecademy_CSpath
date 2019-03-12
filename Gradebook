@@ -1,0 +1,30 @@
+last_semester_gradebook = [("politics", 80), ("latin", 96), ("dance", 97), ("architecture", 65)]
+
+subjects = ["physics", "calculus", "poetry", "history"]
+
+grades = [98, 97, 85, 88]
+
+#adding new subjects here
+subjects.append("computer science")
+subjects.append("visual arts")
+#print(subjects)
+
+#adding new grades here
+grades.append(100)
+grades.append(93)
+#print(grades)
+
+gradebook = list(zip(grades, subjects))
+
+# following the same format as last_semester_gradebook
+gradebook2 = list(zip(subjects, grades)) 
+
+# gradebook is subject, grade format
+# gradebook is grade, subject format
+#print(gradebook)
+#print(gradebook2)
+
+
+full_gradebook = last_semester_gradebook + gradebook2
+print(full_gradebook)
+
