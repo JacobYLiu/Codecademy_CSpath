@@ -1,0 +1,26 @@
+#Write your function here
+# I made a mistake earlier that I put the parenthese before the /2 on line 5, because you're doing an operation on list indices and they have to be integers not floats.
+
+def middle_element(lst):
+  if(int(len(lst)) % 2 == 0):
+    average = lst[int(len(lst)/2) -1] + lst[int(len(lst)/2)]
+    return average
+  else:
+    return lst[int(len(lst))/2]
+
+#Uncomment the line below when your function is done
+print(middle_element([5, 2, -10, -4, 4, 5]))
+
+
+# It is the same thing, but some parentheses are placed differently 
+
+#Write your function here
+def middle_element(lst):
+  if(int(len(lst) % 2) == 0):
+    average = lst[int(len(lst)/2) -1] + lst[int(len(lst)/2)]
+    return average
+  else:
+    return lst[int(len(lst)/2)]
+
+#Uncomment the line below when your function is done
+print(middle_element([5, 2, -10, -4, 4, 5]))
