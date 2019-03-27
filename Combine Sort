@@ -1,0 +1,9 @@
+#The goal is to add the two list and sort them 
+#Write your function here
+def combine_sort(lst1, lst2):
+  add_lst = lst1 + lst2
+  add_lst.sort()
+  return add_lst
+
+#Uncomment the line below when your function is done
+print(combine_sort([4, 10, 2, 5], [-10, 2, 5, 10]))
