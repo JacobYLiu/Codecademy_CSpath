@@ -1,0 +1,9 @@
+all_students = ["Alex", "Briana", "Cheri", "Daniele", "Dora", "Minerva", "Alexa", "Obie", "Arius", "Loki"]
+students_in_poetry = []
+
+#while the length of student in poetry list is less than 6, then pop students from all_students list and append to students in poetry classroom
+while len(students_in_poetry) < 6:
+  that_student = all_students.pop()
+  students_in_poetry.append(that_student)
+  
+print(students_in_poetry)
