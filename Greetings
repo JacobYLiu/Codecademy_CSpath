@@ -1,0 +1,10 @@
+#Write your function here
+def add_greetings(names):
+  empty_list = []
+  for i in names:
+    greeting = "Hello, " + i # Thought of creating the variable to have the element ready then append it to the empty list
+    empty_list.append(greeting)
+  return empty_list
+
+#Uncomment the line below when your function is done
+print(add_greetings(["Owen", "Max", "Sophie"]))
