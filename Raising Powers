@@ -1,0 +1,15 @@
+#Write your function here
+
+def exponents(bases, powers):
+  empty_list = []
+  for b in bases:
+    for p in powers:
+      raised = str(b) +"^" + str(p) + " = " + str(b**p) #Returning "b^p = result" or "2^2 = 4"
+      empty_list.append(raised)
+  return empty_list
+      
+    
+#Uncomment the line below when your function is done
+print(exponents([2, 3, 4], [1, 2, 3]))
+#When I'm thinking about binarys or T/F graphs
+print(exponents([2,4,8], [5,6,7]))
