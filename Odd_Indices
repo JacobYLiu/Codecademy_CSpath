@@ -1,0 +1,10 @@
+#Write your function here
+
+#Taking the odd index elements and putting into empty list
+def odd_indices(lst):
+  empty_list = []
+  for nums in range(1,len(lst),2):
+    empty_list.append(lst[nums])
+  return empty_list
+#Uncomment the line below when your function is done
+print(odd_indices([4, 3, 7, 10, 11, -2]))
